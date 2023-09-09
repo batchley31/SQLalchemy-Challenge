@@ -11,7 +11,7 @@ import datetime as dt
 #################################################
 # Database Setup
 #################################################
-engine = create_engine(f"sqlite:///Resources/Census_Data.sqlite")
+engine = create_engine(f"sqlite:///Resources/hawaii.sqlite")
 
 # reflect an existing database into a new model
 Base = automap_base()
